@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import JSONResponse
 from Models.studentsModel import StudentModel
 from Schemas.studentsSchema import StudentSchema
-from Config.database import SessionLocal, engine
+from Config.database import SessionLocal
 
 router = APIRouter()
 
