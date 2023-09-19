@@ -54,6 +54,12 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+## Run project
+
+```
+uvicorn app:app --reload
+```
+
 ## Create requirements
 
 ```
