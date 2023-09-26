@@ -1,9 +1,10 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, HTTPException
 from fastapi.responses import JSONResponse
 from Models.studentsModel import StudentModel
 from Schemas.studentsSchema import StudentSchema
 from Config.database import SessionLocal
 
+# Crea un nuevo enrutador
 router = APIRouter()
 
 # Read all students

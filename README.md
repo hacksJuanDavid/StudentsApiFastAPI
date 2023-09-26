@@ -40,6 +40,8 @@ pip install databases
 pip install mysql-connector-python
 pip install aiomysql
 pip install python-dotenv
+pip install pytest
+pip install httpx
 ```
 
 ## Create virtualenv
@@ -52,6 +54,10 @@ python3 -m venv venv
 
 ```
 source venv/bin/activate
+```
+# Run test
+```
+pytest Test/testApp.py
 ```
 
 ## Run project
